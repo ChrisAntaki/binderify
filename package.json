@@ -1,0 +1,15 @@
+{
+  "name": "binderify",
+  "version": "1.0.0",
+  "description": "Easily bind every method in an object, to the object.",
+  "main": "binderify.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChrisAntaki/binderify.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
