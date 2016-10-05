@@ -1,6 +1,8 @@
 Works with classes and simple objects
 
 ```js
+const binderify = require('binderify');
+
 class Node {
     constructor(data) {
         binderify(this);
@@ -19,6 +21,8 @@ assert.equal(method(), 128);
 ```
 
 ```js
+const binderify = require('binderify');
+
 const obj = {
     val: 64,
     ret: function() {
